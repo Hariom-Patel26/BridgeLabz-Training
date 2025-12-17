@@ -1,13 +1,14 @@
-// Creating Class with name HarrysAge indicating the purpose is to Calculate the current age of Harry and //Display results.
+// Creating Class with name AgeOfHarry for Calculating the current age of Harry
 class AgeofHarry {
     public static void main (String [] args){
-    // Create a int variable birhtYear and assign value 2000.
+    // Create variable birthYear and currentYear
     int birthYear = 2000;
-    // Create a int variable currentYear and assign value 2024.
     int currentYear = 2024;
-    // Create a int variable calculateAge and calculating the age from year 2000 to year 2024.
+    
+    // Calculate Age of Harry
     int calculateAge = 2024-2000;
-    // display the age of harry in the year 2024.
-    System.out.println("Harry's age in 2024 is : "+calculateAge); 
+        
+    // print Harry's Age
+    System.out.println("Harry's age in 2024 is : "+ calculateAge); 
     }
 }

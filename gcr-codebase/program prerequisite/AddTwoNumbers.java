@@ -5,6 +5,7 @@ class AddTwoNumbers{
     int num1 = kb.nextInt();
     int num2 = kb.nextInt();
 
-    System.out.println(a+b);
+    System.out.println(num1+num2);
    }
 }
+
