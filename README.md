@@ -191,3 +191,18 @@ BridgeLabz-Training/
 
 ---
 
+## 📅 Week 3: Extra practice leetcode questions & scenario based problems
+
+### 🗓 Day 1 – Scenario Based problems  
+**(Date: 29-Dec-2025)**
+
+- Practiced and Solved multiple Scenario based problems.
+- Solved Scenario based problems with UI/UX like approach .
+- Organized programs into proper folders.
+- Committed and pushed all changes successfully.
+
+🔗 **Code Link:**  
+
+👉 [Scenario based](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+
