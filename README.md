@@ -57,13 +57,14 @@ BridgeLabz-Training/
 │   │  └── 📁 DSAConcepts/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
-│   │               ├── 📁 linkedlists/       # singly, doubly & circular
-│   │               └── 📁 stacks/            # Last-In-First-Out (LIFO)
-│   │               └── 📁 queues/            # First-In-First-Out (FIFO)
-│   │               └── 📁 hashmaps/          # Key-Value pairs
-│   │               └── 📁 sorting/           # Sorting algorithms
-│   ├── 📁 leet-code-codebase/                # LeetCode solutions
-│   └── 📁 scenario-based-codebase/           # Real-world problems
+│   │               ├── 📁 linkedlists/                # singly, doubly & circular
+│   │               └── 📁 stacks/                     # Last-In-First-Out (LIFO)
+│   │               └── 📁 queues/                     # First-In-First-Out (FIFO)
+│   │               └── 📁 hashmaps/                   # Key-Value pairs
+│   │               └── 📁 sorting/                    # Sorting algorithms
+│   │               └── 📁 linearandbinarysearch/      # Searching algorithms
+│   ├── 📁 leet-code-codebase/                         # LeetCode solutions
+│   └── 📁 scenario-based-codebase/                    # Real-world problems
 |
 └── README.md
 ```
@@ -103,6 +104,7 @@ BridgeLabz-Training/
 |  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
 |  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
 |  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
+|  18 | 06-Jan      | Searching & I/O utilities      | Linear & Binary Search and FileReader  |
 
 ---
 
@@ -131,7 +133,9 @@ BridgeLabz-Training/
 - **Queues**: FIFO principle, enqueue/dequeue operations, queue variants
 - **HashMaps**: Key-value storage, hashing concept, basic operations
 - **Sorting**: Basic sorting algorithms and comparison-based sorting concepts
-
+- **Searching**: Linear Search and Binary Search algorithms
+- **String Utilities**: `StringBuilder` and `StringBuffer` for mutable strings
+- **File Handling**: Reading input using `FileReader` and `InputStreamReader`
 ---
 
 ## 🔗 Quick Links
@@ -163,7 +167,7 @@ BridgeLabz-Training/
 - 📌 [Queues](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/queues)
 - 📌 [HashMaps](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/hashmaps)
 - 📌 [Sorting Algorithms](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
-
+- 📌 [Searching Algorithms, String & I/O utilities](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/linearandbinarysearch)
 ---
 
 ## 🎓 Learnings & Best Practices
