@@ -19,7 +19,7 @@ BridgeLabz-Training/
 |   |               |── queues/
 |   |               |── hashmaps/
 |   |               |── sorting/
-|   |
+|   |               |── linearandbinarysearch/
 │ 	│── leet-code-codebase/
 │ 	│── scenario-based-codebase/
 │── README.md
@@ -62,6 +62,23 @@ BridgeLabz-Training/
 - 🔗 **Code Link:**  
 👉 [Sorting Algorithms](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/linkedlist)
 
+### 🗓 Day 18 – Searching Algorithms & Java Utilities  
+**(Date: 06-Jan-2026)**
+- Studied Searching Algorithms:
+  - Linear Search
+  - Binary Search
+- Understood searching logic and comparison-based searching.
+- Studied Java mutable string classes:
+  - `StringBuilder`
+  - `StringBuffer`
+- Learned Java input handling using:
+  - `FileReader`
+  - `InputStreamReader`
+- Practiced implementations and solved problems on each concept.
+- Committed and pushed all work.
+- 🔗 **Code Link:**  
+👉 [Searching & Java Utilities](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/linearandbinarysearch)
+
 ---
 ## 🧩 Section B : Scenario-Based Problems Progress
 
@@ -69,3 +86,4 @@ BridgeLabz-Training/
 ## 🧮 Section C : LeetCode-based Problems Progress
 
 ---
+
