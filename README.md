@@ -162,7 +162,6 @@ BridgeLabz-Training/
 - 📌 [Object Modeling & Relations](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
 - 📌 [Inheritance & Types](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 -  📌 [Encapsulation & Polymorphism](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
-- 📌 [LeetCode Solutions]()
 - 📌 [Scenario-Based Solutions](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblems/src/com)
 
 ### `dsa-practice` :
