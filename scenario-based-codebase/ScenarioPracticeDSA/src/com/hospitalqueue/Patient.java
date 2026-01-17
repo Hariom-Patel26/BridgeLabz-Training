@@ -1,4 +1,4 @@
-package com.day04.hospitalqueue;
+package com.hospitalqueue;
 
 class Patient {
 	
