@@ -15,6 +15,10 @@ BridgeLabz-Training/
 |   |       └── src/
 |   |           └── com/
 |   |               │── generics/
+|   |               │── listinterface/
+|   |               │── setinterface/
+|   |               │── queueinterface/
+|   |               │── mapinterface/
 |   |
 │ 	│── leet-code-codebase/
 │ 	└── scenario-based-codebase/
@@ -29,6 +33,42 @@ BridgeLabz-Training/
 - 🔗 **Code Link:**  
 👉 [Generics](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/generics)
 
+### 🗓 Day 23 – Java Collections Framework (List, Set, Queue & Map)  
+**(Date: 17-Jan-2026)**
+- Studied Java Collections Framework architecture and hierarchy.
+- Understood the role of `Collection` and `Map` interfaces.
+- Learned **List Interface** and its implementations:
+  - `ArrayList`
+  - `LinkedList`
+  - `Vector`
+- Performed common List operations:
+  - Add, remove, update, search
+  - Iteration using for-each, Iterator, and ListIterator
+- Learned **Set Interface** and its implementations:
+  - `HashSet`
+  - `LinkedHashSet`
+  - `TreeSet`
+- Understood uniqueness, ordering, and sorting behavior in Sets.
+- Learned **Map Interface** and its implementations:
+  - `HashMap`
+  - `LinkedHashMap`
+  - `TreeMap`
+- Performed key-value operations:
+  - Insertion, deletion, retrieval
+  - Iteration using `entrySet()`, `keySet()`, and `values()`
+-  Learned **Queue Interface** and its implementations:
+  - `PriorityQueue`
+  - `ArrayDeque`
+- Studied queue operations:
+  - Enqueue, dequeue, peek & poll
+- Understood FIFO behavior and priority-based processing.
+- Understood internal working, use cases, and performance considerations.
+- Practiced real-time examples for List, Set, Queue and Map.
+- Committed and pushed all work.
+- 🔗 **Code Link:**  
+👉 [List, Set, Queue & Map](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/collections)
+
+
 ---
 ## 🧩 Section B : Scenario-Based Problems Progress
 
@@ -36,3 +76,4 @@ BridgeLabz-Training/
 ## 🧮 Section C : LeetCode-based Problems Progress
 
 ---
+
