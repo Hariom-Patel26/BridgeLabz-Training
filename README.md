@@ -139,7 +139,7 @@ BridgeLabz-Training/
 
 ### 🗓 Day 25 – Scenario-Based Practice  
 **(Date: 17-Jan-2026)**
-- Solved **4** scenario-based problems on sorting algorithms.
+- Solved **3** scenario-based problems on sorting algorithms.
 - Focused on logical thinking and real-world problem solving.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
@@ -153,11 +153,28 @@ BridgeLabz-Training/
 - 🔗 **Code Links:**  
 👉 [Scenario Based Problems](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dsa-practice/scenario-based-codebase/ScenarioPracticeDSA/src/com)
 
+### 🗓 Day 27 – Scenario-Based Practice  
+**(Date: 20-Jan-2026)**
+- Solved **1** scenario-based problems on sorting algorithms.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dsa-practice/scenario-based-codebase/ScenarioPracticeDSA/src/com)
+
+### 🗓 Day 28 – Scenario-Based Practice  
+**(Date: 21-Jan-2026)**
+- Solved **2** scenario-based problems on sorting algorithms.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dsa-practice/scenario-based-codebase/ScenarioPracticeDSA/src/com)
+
 
 ---
 ## 🧮 Section C : LeetCode-based Problems Progress
 
 ---
+
 
 
 
