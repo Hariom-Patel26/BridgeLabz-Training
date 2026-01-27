@@ -1,10 +1,5 @@
-package com.junit.testingstringutilitymethods;
+package com.junit.main.testingstringutilitymethods;
 
-/*
- * StringUtils
- * -----------
- * Utility class for common string operations.
- */
 public class StringUtils {
 
 	// Returns the reverse of a string
