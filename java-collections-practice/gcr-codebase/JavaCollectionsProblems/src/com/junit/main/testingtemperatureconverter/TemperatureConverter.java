@@ -1,10 +1,5 @@
-package com.junit.testingtemperatureconverter;
+package com.junit.main.testingtemperatureconverter;
 
-/*
- * TemperatureConverter
- * --------------------
- * Converts temperature between Celsius and Fahrenheit.
- */
 public class TemperatureConverter {
 
     // Celsius to Fahrenheit
