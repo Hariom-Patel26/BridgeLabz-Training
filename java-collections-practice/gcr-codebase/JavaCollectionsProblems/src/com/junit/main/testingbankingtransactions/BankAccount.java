@@ -1,11 +1,4 @@
-package com.junit.testingbankingtransactions;
-
-/*
- * BankAccount
- * -----------
- * Represents a simple bank account with
- * deposit and withdrawal functionality.
- */
+package com.junit.main.testingbankingtransactions;
 public class BankAccount {
 
     private double balance;
