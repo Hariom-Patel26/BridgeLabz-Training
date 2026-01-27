@@ -1,10 +1,5 @@
-package com.junit.testingBeforeEachandAfterEachannotations;
+package com.junit.main.testingBeforeEachandAfterEachannotations;
 
-/*
- * DatabaseConnection
- * ------------------
- * Simulates a database connection lifecycle.
- */
 public class DatabaseConnection {
 
     private boolean connected = false;
