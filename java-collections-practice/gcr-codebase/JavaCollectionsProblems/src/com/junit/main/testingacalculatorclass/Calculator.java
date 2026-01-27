@@ -1,10 +1,4 @@
-package com.junit.testingacalculatorclass;
-
-/*
- * Calculator
- * ----------
- * Provides basic arithmetic operations.
- */
+package com.junit.main.testingacalculatorclass;
 public class Calculator {
 
     public int add(int a, int b) {
