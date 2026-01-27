@@ -1,10 +1,5 @@
-package com.junit.testingexceptionhandling;
+package com.junit.main.testingexceptionhandling;
 
-/*
- * MathUtils
- * ---------
- * Provides basic mathematical operations.
- */
 public class MathUtils {
 
     // Divides two integers
