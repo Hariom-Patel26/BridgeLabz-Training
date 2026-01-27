@@ -1,10 +1,4 @@
-package com.junit.testinguserregistration;
-
-/*
- * UserRegistration
- * ----------------
- * Handles user registration validation.
- */
+package com.junit.main.testinguserregistration;
 public class UserRegistration {
 
     // Registers a user after validating inputs
