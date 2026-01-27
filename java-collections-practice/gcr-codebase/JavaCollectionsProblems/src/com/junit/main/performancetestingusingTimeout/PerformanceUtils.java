@@ -1,10 +1,4 @@
-package com.junit.performancetestingusingTimeout;
-
-/*
- * PerformanceUtils
- * ----------------
- * Simulates a long-running task.
- */
+package com.junit.main.performancetestingusingTimeout;
 public class PerformanceUtils {
 
     // Simulates a task that takes 3 seconds
