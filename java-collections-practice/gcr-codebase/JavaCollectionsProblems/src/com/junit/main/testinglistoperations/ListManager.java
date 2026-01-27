@@ -1,12 +1,7 @@
-package com.junit.testinglistoperations;
+package com.junit.main.testinglistoperations;
 
 import java.util.List;
 
-/*
- * ListManager
- * -----------
- * Provides basic operations on a List of Integers.
- */
 public class ListManager {
 
     // Adds an element to the list
