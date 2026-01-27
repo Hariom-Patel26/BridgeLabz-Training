@@ -1,13 +1,5 @@
-package com.junit.testingpasswordstrengthvalidator;
+package com.junit.main.testingpasswordstrengthvalidator;
 
-/*
- * PasswordValidator
- * -----------------
- * Validates password strength based on rules:
- * - Minimum 8 characters
- * - At least one uppercase letter
- * - At least one digit
- */
 public class PasswordValidator {
 
     // Returns true if password is strong
