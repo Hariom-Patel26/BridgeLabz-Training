@@ -1,14 +1,9 @@
-package com.junit.testingdateformatter;
+package com.junit.main.testingdateformatter;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
-/*
- * DateFormatter
- * -------------
- * Converts date from yyyy-MM-dd to dd-MM-yyyy format.
- */
 public class DateFormatter {
 
 	// Converts yyyy-MM-dd to dd-MM-yyyy
