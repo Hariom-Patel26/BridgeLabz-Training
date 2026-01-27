@@ -1,15 +1,10 @@
-package com.junit.testingfilehandlingmethods;
+package com.junit.main.testingfilehandlingmethods;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/*
- * FileProcessor
- * -------------
- * Handles basic file write and read operations.
- */
 public class FileProcessor {
 
     // Writes content to a file
