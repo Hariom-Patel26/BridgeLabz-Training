@@ -1,6 +1,6 @@
 # BridgeLabz Training Journey
 
-> A comprehensive Java programming training repository covering Core Java fundamentals to Object-Oriented Programming concepts.
+> A comprehensive Java programming training repository covering Core Java fundamentals to Collection Framework concepts.
 
 ##  Training Overview
 
@@ -36,10 +36,12 @@ BridgeLabz-Training/
 │   │   ├── 📁 methods/                # Method practices
 │   │   ├── 📁 program-prerequisite/   # Basic Java programs   
 │   │   ├── 📁 programming-elements/   # Java programming elements  
-│   │   └── 📁 Strings/                # String manipulation 
+│   │   └── 📁 Strings/                # String manipulation
+|   |
 │   ├── 📁 leet-code-codebase/         # LeetCode solutions
 │   └── 📁 scenario-based-codebase/    # Real-world problems
 │
+|
 └── 📁 java-oops-practice/
 │   └── 📁 gcr-codebase/
 │   │  └── 📁 JavaOopsConcepts/
@@ -51,8 +53,10 @@ BridgeLabz-Training/
 │   │               └── 📁 objectmodeling/    # Diagrams, relationships, communication
 │   │               └── 📁 inheritance/       # Types, method overriding, & access modifiers
 │   │               └── 📁 encapsulation/     # Abstract class, interface, & polymorphism
+|   |
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based-codebase/           # Real-world problems
+|
 |
 └── 📁 dsa-practice/
 │   └── 📁 gcr-codebase/
@@ -66,20 +70,26 @@ BridgeLabz-Training/
 │   │               └── 📁 sorting/                    # Sorting algorithms
 │   │               └── 📁 linearandbinarysearch/      # Searching algorithms
 │   │               └── 📁 analysis/                   # Runtime Analysis & Big-O Notation
+|   |
 │   ├── 📁 leet-code-codebase/                         # LeetCode solutions
 │   └── 📁 scenario-based-codebase/                    # Real-world problems
+|
 |
 └── 📁 java-collections-practice/
 │   ├── 📁 gcr-codebase/
 │   │  └── 📁 JavaCollectionsProblems/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
-│   │               └── 📁 generics/          # Generic classes, methods, wildcards
-│   │               └── 📁 collections/       # List, Set, Queue, Map Interface
-│   │               └── 📁 streams/           # I/O streams, buffering, and serialization
-|   |
-│   ├── 📁 leet-code-codebase/
-│   └── 📁 scenario-based-codebase/
+│   │               ├── 📁 generics/          # Generic classes, methods, wildcards
+│   │               ├── 📁 collections/       # List, Set, Queue, Map Interface
+│   │               ├── 📁 streams/           # I/O streams, buffering, and serialization
+│   │               ├── 📁 exceptionhandling/ # Checked, unchecked, custom exceptions, try-with-resources
+│   │               ├── 📁 regex/             # Pattern matching, validation rules, groups & quantifiers
+│   │               ├── 📁 junit/             # Unit testing, assertions, test lifecycle, test cases
+│   │               ├── 📁 reflection/        # Runtime inspection, dynamic invocation, proxies
+│   │               └── 📁 annotations/       # Built-in & custom annotations, processors
+│   │
+│   └── 📁 scenario-based-codebase/           # Real-world problems
 │ 
 └── README.md
 ```
@@ -129,6 +139,10 @@ BridgeLabz-Training/
 | 22  | 16-Jan      | Java Generics                  | Generic classes, methods, type parameters, bounded types, wildcards |
 | 23  | 17-Jan      | Collections Framework          | Collection hierarchy, List, Set, Queue, Map, implementations        |
 | 24  | 19-Jan      | Java I/O Streams               | Byte, character, buffered, object & bridge streams                  |
+| 25  | 20-Jan      | Exception Handling             | Checked, unchecked, custom exceptions, try(resources) & nested      |
+| 26  | 21-Jan      | Regex & JUnit Testing          | Pattern matching, validations, groups, unit testing, assertions     |
+| 27  | 22-Jan      | Annotations & Reflection       | Built-in & custom annotations, runtime inspection, proxies          |
+
 
 ---
 
@@ -172,6 +186,12 @@ BridgeLabz-Training/
 - **Queue & Deque**: `PriorityQueue`, `ArrayDeque`
 - **Hands-on Practice**: CRUD, iteration, ordering, and performance examples
 - - **I/O Streams**: Byte & character streams, buffering, object serialization, and efficient file handling
+-  **Exception Handling**: Checked vs unchecked exceptions, `try-catch-finally`, multiple and nested catch blocks, `throw` vs `throws`, custom exceptions, try-with-resources
+- **Regex & JUnit Testing**: Pattern matching, validation rules, groups, quantifiers, unit tests, assertions, test lifecycle
+- **Reflection**: Runtime class inspection, private member access, dynamic invocation, constructors, proxies, annotation processing 
+- **Annotations**: Built-in annotations, meta-annotations, custom annotations, retention policies, processors, framework usage 
+  **Problem Solving**: LeetCode challenges, real-world scenarios
+
 
 
 ---
@@ -213,6 +233,14 @@ BridgeLabz-Training/
 - 📌 [Generics](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/generics)
 - 📌 [Collections](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/collections)
 - 📌 [I/O Streams](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/streams)
+- 📌 [Exception Handling](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/exceptionhandling)
+- 📌 [Regex - Regular Expressions](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/regex)
+- 📌 [JUnit Testing](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/junit)
+- 📌 [Reflection](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/reflection)
+- 📌 [Annotations](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/annotations)
+- 📌 [Custom Annotations](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsProblems/src/com/customannotations)
+- 📌 [Scenario-Based Solutions](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/ScenarioPracticeCollections/src/com)
+
 ---
 
 ## 🎓 Learnings & Best Practices
@@ -221,6 +249,5 @@ BridgeLabz-Training/
 -  **Naming Conventions**: Camel case, Pascal case and meaningful names
 -  **Version Control**: Regular commits with descriptive messages
 -  **Problem-Solving**: Breaking complex problems into smaller tasks
--  **Documentation**: Clear comments and README files
--  
+-  **Documentation**: Clear comments and README files 
 ---
