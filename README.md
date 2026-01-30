@@ -21,6 +21,10 @@ This repository documents my learning journey at BridgeLabz, spanning from **Dec
 
 ### 🔹 [java-collections-practice](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-collections-practice)
 **Week 4** : Collections Framework in Java
+
+### 🔹 [java-iostreams-practice](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-iostreams-practice)
+**Week 5** : Java I/O Streams
+
 ---
 
 ## 📂 Project Structure
@@ -90,6 +94,13 @@ BridgeLabz-Training/
 │   │               └── 📁 annotations/       # Built-in & custom annotations, processors
 │   │
 │   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+├── 📁 java-iostreams-practice/
+│   ├── 📁 gcr-codebase/
+|   |
+|   |
+│   └── 📁 scenario-based-codebase/ 
+
 │ 
 └── README.md
 ```
@@ -142,6 +153,12 @@ BridgeLabz-Training/
 | 25  | 20-Jan      | Exception Handling             | Checked, unchecked, custom exceptions, try(resources) & nested      |
 | 26  | 21-Jan      | Regex & JUnit Testing          | Pattern matching, validations, groups, unit testing, assertions     |
 | 27  | 22-Jan      | Annotations & Reflection       | Built-in & custom annotations, runtime inspection, proxies          |
+
+### **Week 5 : Java I/O Streams**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+|     |             |                                |                                                                     |
+
 
 
 ---
