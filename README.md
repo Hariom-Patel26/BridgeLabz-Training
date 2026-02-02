@@ -107,7 +107,17 @@ BridgeLabz-Training/
 │   │               └── 📁 jsondata/          # JSON parsing, schema validation, mapping, conversions
 |   |
 │   └── 📁 scenario-based-codebase/ 
-│ 
+│
+├── 📁 java8-programming-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 Java8Concepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 lambdas/           # Lambda expressions, functional interfaces, syntax
+│   │               └── 📁 methodreferences/  # Static, instance, constructor references
+│   │               └── 📁 interfaces/        # Default methods, static methods, functional interfaces
+|   |
+│   └── 📁 scenario-based-codebase/ 
 └── README.md
 ```
 
@@ -166,7 +176,10 @@ BridgeLabz-Training/
 | 30  | 27-Jan      | Lambdas & Interfaces           | Lambdas, functional interfaces, method references                   |
 | 31  | 28-Jan      | Streams & Collectors           | Stream API, intermediate, terminal, collectors, parallel streams    |
 
-
+### **Week 6 : Java 8 Features**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 30  | 27-Jan      | Lambdas & Interfaces           | Lambdas, functional interfaces, method references                   |
 
 ---
 
@@ -220,6 +233,12 @@ BridgeLabz-Training/
 - **CSV Data Handling**: Reading/writing CSV files, OpenCSV usage, data validation, object mapping, and large-file handling
 - **JSON Data Handling**: JSON creation, parsing, POJO mapping, schema validation, merging datasets, CSV to JSON conversion
 
+### Java 8 Features (java8-programming-practice)
+- **Lambda Expressions**: Functional programming syntax and usage
+- **Functional Interfaces**: `Predicate`, `Function`, `Consumer`, `Supplier`
+- **Method References**: Static, instance, and constructor references
+- **Interface Enhancements**: Default and static methods
+
 ---
 
 ## 🔗 Quick Links
@@ -271,6 +290,10 @@ BridgeLabz-Training/
 - 📌 [CSV Data Handling](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsConcepts/src/com/csvdata)
 - 📌 [JSON Data Handling](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsConcepts/src/com/jsondata)
 
+### `java8-programming-practice` :
+- 📌 [Lambda Expressions](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/lambdas)
+- 📌 [Method References](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/methodreferences)
+- 📌 [Interfaces](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/interfaces)
 
 ---
 
