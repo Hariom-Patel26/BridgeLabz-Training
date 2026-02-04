@@ -25,8 +25,11 @@ This repository documents my learning journey at BridgeLabz, spanning from **Dec
 ### 🔹 [java-iostreams-practice](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-iostreams-practice)
 **Week 5** : Java I/O Streams
 
-### 🔹 [java8-programming-practice](https://github.com/Abhishek-Puri-Goswami/BridgeLabz-Training/tree/java8-programming-practice)
+### 🔹 [java8-programming-practice](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java8-programming-practice)
 **Week 6** : Java 8 Features
+
+### 🔹 [java-design-pattern-practice](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-design-pattern-practice)
+**Week 7** : Java Design Principles & Design Patterns
 
 ---
 
@@ -120,7 +123,17 @@ BridgeLabz-Training/
 │   │               └── 📁 collectors/        # Grouping, partitioning, summarizing collectors
 │   │               └── 📁 workshop/          # Mini projects & real-world stream problems
 |   |
-│   └── 📁 scenario-based-codebase/ 
+│   └── 📁 scenario-based-codebase/
+|
+├── 📁 java-design-pattern-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 DesignConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 designprinciples/  # SOLID principles and design patterns
+|   |
+│   |
+│   └── 📁 scenario-based-codebase/           # Real-world problems
 └── README.md
 ```
 
@@ -246,6 +259,11 @@ BridgeLabz-Training/
 - **Collectors**: Grouping, partitioning, summarization, joining
 - **Workshop**: Real-world data processing using streams
 
+### Java Design Principles & Design Patterns (java-design-pattern-practice)
+- **Design Principles**: SOLID, DRY, KISS, YAGNI, composition over inheritance
+- **Design Patterns**: Singleton, Factory, Observer, Builder
+- **Clean Code Practices**: Object Calisthenics, interface-driven design
+
 ---
 
 ## 🔗 Quick Links
@@ -303,6 +321,9 @@ BridgeLabz-Training/
 - 📌 [Interfaces](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/interfaces)
 - 📌 [Streams](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/streams)
 - 📌 [Collectors](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/collectors)
+
+### `java-design-pattern-practice` :
+- 📌 [Design Principles & Patterns](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/designprinciples)
 
 ---
 
