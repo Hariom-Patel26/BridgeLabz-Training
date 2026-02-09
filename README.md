@@ -131,6 +131,7 @@ BridgeLabz-Training/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
 │   │               ├── 📁 designprinciples/  # SOLID principles and design patterns
+│   │               └── 📁 multithreading/    # Thread lifecycle, synchronization, concurrency examples 
 |   |
 │   |
 │   └── 📁 scenario-based-codebase/           # Real-world problems
@@ -198,6 +199,12 @@ BridgeLabz-Training/
 | 30  | 27-Jan      | Lambdas & Interfaces           | Lambdas, functional interfaces, method references                   |
 | 31  | 28-Jan      | Streams & Collectors           | Stream API, intermediate, terminal, collectors, parallel streams    |
 
+### **Week 7 : Java Design Principles & Design Patterns**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 32  | 31-Jan      | Design Principles & Patterns   | SOLID, DRY, YAGNI, KISS, GoF patterns, clean code principles        |
+| 33  | 02-Feb      | Multithreading in Java         | Thread lifecycle, synchronization, concurrency use cases            |
+
 ---
 
 ##  Key Concepts Covered
@@ -263,6 +270,10 @@ BridgeLabz-Training/
 - **Design Principles**: SOLID, DRY, KISS, YAGNI, composition over inheritance
 - **Design Patterns**: Singleton, Factory, Observer, Builder
 - **Clean Code Practices**: Object Calisthenics, interface-driven design
+- **Multithreading**: Thread lifecycle, creation using Thread & Runnable, priorities, daemon threads
+- **Synchronization**: Locks, shared resource handling, race-condition prevention
+- **Concurrency Testing**: JUnit validation, timing logs, performance comparison
+-  **Problem Solving**: LeetCode challenges, real-world scenarios
 
 ---
 
@@ -324,7 +335,7 @@ BridgeLabz-Training/
 
 ### `java-design-pattern-practice` :
 - 📌 [Design Principles & Patterns](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/designprinciples)
-
+- 📌 [Multithreading](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/multithreading)
 ---
 
 ## 🎓 Learnings & Best Practices
