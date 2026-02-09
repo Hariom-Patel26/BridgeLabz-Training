@@ -1,0 +1,124 @@
+-- ============================================================
+-- Problem: Exercise 1 - Simple CRUD Application
+-- File: employee.db
+-- Table: employee
+-- Database: practice_db
+-- ============================================================
+
+
+-- mysql> 
+use practice_db;
+
+/* o/p
+Database changed
+*/
+
+-- mysql>
+DROP TABLE IF EXISTS employee;
+
+/* o/p
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+*/
+
+-- mysql> 
+CREATE TABLE employees (
+        emp_id INT AUTO_INCREMENT PRIMARY KEY,
+        emp_name VARCHAR(100) NOT NULL,
+        emp_salary DOUBLE NOT NULL,
+        emp_department VARCHAR(100)
+     );
+     
+/* o/p
+Query OK, 0 rows affected (0.02 sec)
+*/
+
+-- mysql>
+DESC employee;
+
+/* o/p
++-------------+---------------+------+-----+---------+----------------+
+| Field       | Type          | Null | Key | Default | Extra          |
++-------------+---------------+------+-----+---------+----------------+
+| employee_id | int           | NO   | PRI | NULL    | auto_increment |
+| name        | varchar(50)   | NO   |     | NULL    |                |
+| salary      | decimal(10,2) | NO   |     | NULL    |                |
+| department  | varchar(40)   | YES  |     | NULL    |                |
++-------------+---------------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)
+*/
+
+--mysql> 
+INSERT into employees (emp_name, emp_salary, emp_department)
+    VALUES ('Rahul', 35000, 'IT'),
+    VALUES ('Amit', 45000, 'HR'),
+    VALUES ('Sumit', 55000, 'Operational');
+    
+/*o/p
+Query OK, 3 row affected (0.03 sec)   
+*/ 
+
+--mysql> SELECT * FROM employees ;
+
+/*
++--------+----------+------------+----------------+
+| emp_id | emp_name | emp_salary | emp_department |
++--------+----------+------------+----------------+
+|      1 | Rahul    |      35000 | IT             |
+|      2 | Amit     |      45000 | HR             |
+|      3 | Sumit    |      55000 | Operational    |
++--------+----------+------------+----------------+
+3 rows in set (0.00 sec)
+*/
+--mysql>
+ UPDATE employees
+    -> SET emp_salary = 60000
+    -> WHERE emp_name = 'Amit';
+    
+/*o/p
+Query OK, 1 row affected (0.01 sec)
+*/
+
+--mysql> 
+DELETE FROM employees
+    -> WHERE emp_id = 3;
+
+/*o/p
+Query OK, 1 row affected (0.01 sec)
+*/
+
+--mysql>
+ SELECT * FROM employees;
+ /*o/p
++--------+----------+------------+----------------+
+| emp_id | emp_name | emp_salary | emp_department |
++--------+----------+------------+----------------+
+|      1 | Rahul    |      35000 | IT             |
+|      2 | Amit     |      60000 | HR             |
++--------+----------+------------+----------------+
+2 rows in set (0.00 sec)
+*/
+
+--mysql>
+ SELECT * FROM employees
+    -> WHERE emp_name LIKE '%Rahul%';
+    
+ /*o/p
++--------+----------+------------+----------------+
+| emp_id | emp_name | emp_salary | emp_department |
++--------+----------+------------+----------------+
+|      1 | Rahul    |      35000 | IT             |
++--------+----------+------------+----------------+
+1 row in set (0.00 sec)
+*/
+
+-- mysql>
+SELECT COUNT(*) AS total_employees FROM employee;
+
+/* o/p
++-----------------+
+| total_employees |
++-----------------+
+|               2 |
++-----------------+
+1 row in set (0.00 sec)
+*/
