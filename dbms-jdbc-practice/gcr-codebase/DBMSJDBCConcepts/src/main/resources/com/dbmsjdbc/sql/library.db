@@ -1,0 +1,94 @@
+============================================================
+-- Problem: Exercise 3 - Library Management System
+-- File: library.db
+-- Tables: books, students, borrow_records
+-- Database: practice_db
+============================================================
+
+
+-- mysql>
+USE practice_db;
+
+/* o/p
+Database changed
+*/
+
+-- mysql>
+DROP TABLE IF EXISTS borrow_records;
+DROP TABLE IF EXISTS students;
+DROP TABLE IF EXISTS books;
+
+/* o/p
+Query OK, 0 rows affected
+*/
+
+-- mysql>
+CREATE TABLE books (
+        book_id INT AUTO_INCREMENT PRIMARY KEY,
+        title VARCHAR(150),
+        author VARCHAR(100),
+        category VARCHAR(50),
+        total_copies INT,
+        available_copies INT
+);
+
+/* o/p
+Query OK, 0 rows affected (0.03 sec)
+*/
+
+-- mysql>
+CREATE TABLE students (
+        student_id INT AUTO_INCREMENT PRIMARY KEY,
+        student_name VARCHAR(100),
+        department VARCHAR(50)
+);
+
+/* o/p
+Query OK, 0 rows affected (0.02 sec)
+*/
+
+-- mysql>
+CREATE TABLE borrow_records (
+        record_id INT AUTO_INCREMENT PRIMARY KEY,
+        student_id INT,
+        book_id INT,
+        borrow_date DATE,
+        return_date DATE,
+        fine DOUBLE DEFAULT 0);
+
+/* o/p
+Query OK, 0 rows affected (0.02 sec)
+*/
+
+-- mysql>
+INSERT INTO books (title, author, category, total_copies, available_copies)
+VALUES ('Java Programming', 'James Gosling', 'Programming', 5, 5),
+       ('Database Systems', 'Elmasri', 'DBMS', 4, 4),
+       ('Operating Systems', 'Silberschatz', 'OS', 3, 3);
+
+/* o/p
+Query OK, 3 rows affected
+*/
+
+-- mysql>
+INSERT INTO students (student_name, department)
+VALUES ('Rahul', 'CSE'),
+       ('Amit', 'IT'),
+       ('Neha', 'ECE');
+
+/* o/p
+Query OK, 3 rows affected
+*/
+
+-- mysql>
+SELECT * FROM books;
+
+/* o/p
++---------+------------------+--------------+------------+--------------+------------------+
+| book_id | title            | author       | category   | total_copies | available_copies |
++---------+------------------+--------------+------------+--------------+------------------+
+| 1       | Java Programming | James Gosling| Programming| 5            | 5                |
+| 2       | Database Systems | Elmasri      | DBMS       | 4            | 4                |
+| 3       | Operating Systems| Silberschatz | OS         | 3            | 3                |
++---------+------------------+--------------+------------+--------------+------------------+
+*/
