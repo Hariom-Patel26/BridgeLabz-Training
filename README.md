@@ -1,6 +1,6 @@
 # BridgeLabz Training Journey
 
-> A comprehensive Java programming training repository covering Core Java fundamentals to Java 8 concepts.
+> A comprehensive Java programming training repository covering Core Java fundamentals to JDBC.
 
 ##  Training Overview
 
@@ -30,6 +30,9 @@ This repository documents my learning journey at BridgeLabz, spanning from **Dec
 
 ### 🔹 [java-design-pattern-practice](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-design-pattern-practice)
 **Week 7** : Java Design Principles & Design Patterns
+
+### 🔹 [dbms-jdbc-practice](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dbms-jdbc-practice)
+**Week 8** : DBMS, SQL & JDBC Fundamentals
 
 ---
 
@@ -135,6 +138,24 @@ BridgeLabz-Training/
 |   |
 │   |
 │   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+├── 📁 dbms-jdbc-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 DBMSJDBCConcepts/
+│   │       ├── 📁 src/
+│   │       │   └── 📁 main/
+│   │       │       ├── 📁 resources/
+│   │       │       │   └── 📁 com/
+│   │       │       │       └── 📁 dbmsjdbc/
+│   │       │       │           └── 📁 sql/         # SQL scripts, DBMS fundamentals & MySQL DB
+│   │       │       └── 📁 java/
+│   │       │           └── 📁 com/
+│   │       │               └── 📁 dbmsjdbc/
+│   │       │                   └── 📁 jdbc/        # JDBC programs & DAO layer
+│   │       │
+│   │       └── pom.xml                             # Maven configuration and dependency management
+│   │
+│   └── 📁 scenario-based-codebase/                 # Real-world problems
 └── README.md
 ```
 
@@ -190,8 +211,8 @@ BridgeLabz-Training/
 ### **Week 5 : Java I/O Streams**
 | Day |     Date    | Topic                          | Coverage                                                            |
 |-----|-------------|--------------------------------|---------------------------------------------------------------------|
-| 30  | 27-Jan      | Lambdas & Interfaces           | Lambdas, functional interfaces, method references                   |
-| 31  | 28-Jan      | Streams & Collectors           | Stream API, intermediate, terminal, collectors, parallel streams    |
+| 28  | 23-Jan      | CSV Data Handling in Java      | Read/write CSV, validation, large-file processing, dataset merging  |
+| 29  | 24-Jan      | JSON Data Handling in Java     | JSON parsing, POJO mapping, schema validation, CSV to JSON, etc.    |
 
 ### **Week 6 : Java 8 Features**
 | Day |     Date    | Topic                          | Coverage                                                            |
@@ -204,6 +225,12 @@ BridgeLabz-Training/
 |-----|-------------|--------------------------------|---------------------------------------------------------------------|
 | 32  | 31-Jan      | Design Principles & Patterns   | SOLID, DRY, YAGNI, KISS, GoF patterns, clean code principles        |
 | 33  | 02-Feb      | Multithreading in Java         | Thread lifecycle, synchronization, concurrency use cases            |
+
+### **Week 8 : DBMS, SQL & JDBC Fundamentals**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 34  | 06-Feb      | DBMS & SQL Optimization        | Normalization, joins, transactions, indexes, tuning & EXPLAIN       |
+| 35  | 09-Feb      | JDBC Fundamentals, Connectivity| JDBC architecture, CRUD operations, transactions, DAO/DTO patterns  |
 
 ---
 
@@ -275,6 +302,20 @@ BridgeLabz-Training/
 - **Concurrency Testing**: JUnit validation, timing logs, performance comparison
 -  **Problem Solving**: LeetCode challenges, real-world scenarios
 
+
+### DBMS, SQL & JDBC Fundamentals (dbms-jdbc-practice)
+- **Database Design**: Normal forms (1NF–4NF, BCNF), schema modeling
+- **Keys**: Primary, foreign, composite, candidate, unique
+- **SQL Commands**: DDL, DML, DQL, DCL, TCL
+- **Joins**: Inner, outer, cross, self joins
+- **Advanced Queries**: Subqueries, CTEs, window functions
+- **Indexing**: Clustered, non-clustered, composite, full-text, unique
+- **Query Optimization**: Execution plans, `EXPLAIN`, tuning strategies
+- **JDBC Architecture**: DriverManager, Connection, Statement APIs
+- **Database Operations**: CRUD using PreparedStatement
+- **Transactions**: Commit, rollback, savepoints, auto-commit handling
+- **Design Patterns**: DAO and DTO for database applications
+
 ---
 
 ## 🔗 Quick Links
@@ -336,6 +377,10 @@ BridgeLabz-Training/
 ### `java-design-pattern-practice` :
 - 📌 [Design Principles & Patterns](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/designprinciples)
 - 📌 [Multithreading](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/multithreading)
+
+### `dbms-jdbc-practice` :
+- 📌 [DBMS, MySQL & SQL](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DBMSJDBCConcepts/src/main/resources/com/dbmsjdbc/sql)
+- 📌 [JDBC Practice](https://github.com/Hariom-Patel26/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DBMSJDBCConcepts/src/main/java/com/dbmsjdbc/jdbc)
 ---
 
 ## 🎓 Learnings & Best Practices
